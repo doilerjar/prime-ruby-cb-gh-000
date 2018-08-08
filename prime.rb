@@ -1,5 +1,9 @@
 # Add  code here!
 def prime?(n)
+  if n < 0 
+    return false 
+  end 
+  
   if n == 1 || n == 2 || n == 3
     return true 
   else 
