@@ -14,5 +14,3 @@ def prime?(n)
   end 
   return true 
 end 
-
-prime?(5)
