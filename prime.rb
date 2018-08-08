@@ -4,7 +4,7 @@ def prime?(n)
     return false 
   end 
   
-  if n == 1 || n == 2 || n == 3
+  if n == 2 || n == 3
     return true 
   else 
     a = (2..n-1).to_a
