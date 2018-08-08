@@ -9,4 +9,4 @@ def prime?(n)
   end 
 end 
 
-prime(5)
+prime?(5)
