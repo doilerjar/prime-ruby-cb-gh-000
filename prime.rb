@@ -5,8 +5,14 @@ def prime?(n)
     return true 
   else 
     a = (2..n-1).to_a
-    binding.pry 
+    # binding.pry 
+    a.each do |num|
+      if n % num == 0 
+        return false
+      end 
+    end 
   end 
+  return true 
 end 
 
 prime?(5)
